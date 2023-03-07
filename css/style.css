@@ -1,0 +1,108 @@
+body{
+    background: rgb(42, 41, 41);
+    color:white;
+   
+}
+.clockdisplay{
+    margin-top: 50px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+.mainbox {
+    border:2px solid #f5f5f5;
+    border-radius: 2px;
+    padding: 40px;
+    width:70%;
+   
+}
+.secborder{
+    border:3px solid rgba(247, 242, 242, 0.934);
+    border-radius: 6px;
+    padding: 20px;
+}
+.conborder{
+    border:1px solid rgb(109, 102, 102);
+    border-radius: 12px;
+    padding: 10px;
+
+}
+.title{
+     display:flex;
+     justify-content:space-around;
+}
+.title p{
+    font-size: 15px;
+    font-weight: 500;
+    color:#ccc;
+    margin-bottom:0px;
+}
+.display{
+    display:flex;
+    justify-content:space-around;
+    border:1px solid rgb(109, 102, 102);
+    border-radius: 10px;
+    padding: 25px;
+}
+.display h3{
+    color:rgb(188, 10, 10);
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.display1{
+    display:flex;
+    justify-content:center;
+    border:1px solid rgb(109, 102, 102);
+    border-radius: 10px;
+    padding: 35px;
+}
+.display1 h1{
+    color:rgb(188, 10, 10);
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 20px;
+} 
+.dayDisplay{
+    display:flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.day{
+    border:2px solid rgb(109, 102, 102);
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+}
+.active-days{
+    color:black;
+    background-color: red;
+}
+.dayDisplay span{
+    position: relative;
+    top: 4px;;
+    left:-22px;
+    font-size: 13px;
+    font-weight: 500;
+    color:#ccc;
+}
+.apmdiv{
+    padding: 10px 0px;
+}
+.apmdiv h3{
+    border:3px solid rgb(109, 102, 102);
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+   
+}
+.apmdiv span{
+    position: relative;
+    top: -10px;;
+    left:16px;
+    font-size: 15px;
+    font-weight: 500;
+    color:#ccc;
+}
